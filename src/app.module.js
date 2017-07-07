@@ -9,5 +9,8 @@ export default angular.module('app', [
     todoList
 ])
 .component('app', new AppComponent)
+.config(($urlRouterProvider) => {
+    $urlRouterProvider.otherwise("/");
+})
 .name;
 

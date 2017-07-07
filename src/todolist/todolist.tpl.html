@@ -1,3 +1,1 @@
-<div ng-repeat="todo in tlvm.todos">
-    {{todo.text}}
-</div>
+<todo-item ng-repeat="todo in tlvm.todos" todo="todo" on-change="tlvm.todoItemChanged($event)"></todo-item>
