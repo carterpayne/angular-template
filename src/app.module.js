@@ -1,3 +1,4 @@
+import 'bootstrap-css-only';
 import './app.css';
 import angular from 'angular';
 import uiRouter from '@uirouter/angularjs';

@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@uirouter/angularjs": "^1.0.5",
-    "angular": "^1.5.0"
+    "angular": "^1.5.0",
+    "bootstrap-css-only": "^3.3.7",
+    "macaddress": "github:TheBeastOfCaerbannog/node-macaddress#43238cd0569573837d4b48a27b3063d287d2968b"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
